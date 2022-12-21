@@ -1,0 +1,217 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+}
+
+header{
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+
+
+
+.info-nome {
+	
+	text-align: left;
+}
+
+.botao-delete{
+	margin-right: 1em;
+	background-color: red;
+	display: inline-block;
+	height: 1em;
+	width: 2%;
+}
+
+.botao-delete:hover {
+	cursor:pointer;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+.labels {
+	margin-bottom: .2em;
+	margin-top: 1em;
+}
+
+label{
+	color: #555;
+	margin-left: 2%;
+	display: inline-block;
+	width: 32%;
+	font-size: 15px;
+}
+
+.label-peso {
+	margin-left: 0%;
+}
+
+.label-invalida{
+	color: orangered;
+	font-weight: bold;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+
+.pacienteInvalido {
+	background-color: red;
+	color: white;
+	border: 2px solid orange;
+	
+}
+
+.bloco-formulario {
+	padding-top: 1%;
+	margin-top: 5%;
+	box-sizing: border-box;
+	border-top: 2px solid lightgrey;
+	width: 50%;
+}
+
+.titulo-formulario{
+	font-weight: bold;
+	display: block;
+	margin-top: 5%;
+	font-size: 1.7em;
+}
+
+.formulario {
+	margin: 2% 0 0 2%;
+	display: inline-block;
+	padding: 2% 2%;
+	width: 32%;
+
+}
+
+.nome-paciente {
+	margin-left: 0px;
+	display: block;
+	width: 100%;
+}
+
+.peso-paciente {
+	margin-left: 0px;
+}
+
+.submit {
+	margin-left: 0px;
+	width: 100%;
+	font-size: 1.2em;
+}
